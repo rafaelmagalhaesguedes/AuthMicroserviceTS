@@ -1,7 +1,0 @@
-tests/
-node_modules/
-build/
-src/database/migrations
-src/database/seeders
-src/database/config
-src/database/models/index.ts
