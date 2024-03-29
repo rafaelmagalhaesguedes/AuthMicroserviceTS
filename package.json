@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "compose:up": "cd app/backend && docker-compose up -d --build",
-    "compose:down": "cd app/backend && docker-compose down --remove-orphans"
+    "compose:down": "cd app/backend && docker-compose down --remove-orphans",
+    "dev": "cd app/frontend && npm run dev"
   },
   "keywords": ["nodejs", "express", "rest", "api"],
   "author": "Rafael Magalhães Guedes",
